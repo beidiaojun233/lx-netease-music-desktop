@@ -123,7 +123,6 @@ jobs:
     name: Windows_7
     runs-on: windows-latest
     needs: PrepareRelease
-    continue-on-error: true
     # needs: CheckCode
     steps:
       - name: Check out git repository
