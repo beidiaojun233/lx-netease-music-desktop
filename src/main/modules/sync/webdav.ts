@@ -23,7 +23,7 @@ const createUrl = (path: string) => {
   return `${baseUrl.replace(/\/+$/, '')}/${normalizedPath}`
 }
 
-const requestWebdav = async(path: string, method: string, options: {
+const requestWebdav = async(path: string, method: Parameters<typeof request>[1]['method'], options: {
   body?: string
   headers?: Record<string, string>
 } = {}) => {
