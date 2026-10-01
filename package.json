@@ -86,10 +86,10 @@
       "CFBundleName": "LX-N"
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/souvenp/lx-netease-music-desktop.git"
-  },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/beidiaojun233/lx-netease-music-desktop.git"
+},
   "keywords": [
     "music-player",
     "electron-app",
