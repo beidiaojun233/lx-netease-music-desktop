@@ -47,7 +47,7 @@ const options = {
   publish: [
     {
       provider: 'github',
-      owner: 'souvenp',
+      owner: 'beidiaojun233',
       repo: 'lx-netease-music-desktop',
       releaseType: 'release',
     },
